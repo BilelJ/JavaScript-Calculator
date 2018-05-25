@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>The JavaScript Calculator</title>
+	<meta name="description" content="Calcultor entirely developed with JavaScript/jQuery.">
+ 	<meta name="keywords" content="FCC, FreeCodeCamp,JavaScript calculator,calculator">
+  	<meta name="author" content="Bilel Jribi">
+	<link rel="stylesheet" href="style.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:title" content="The JavaScript Calculator">
+	<meta property="og:description" content="Calcultor entirely developed with JavaScript/jQuery.">
+	<meta property="og:image" content="scr.jpg">
+</head>
+<body>
+
+	<div class="container">
+		<div class="calculator">
+			<div class="row">
+				<input type="text" id="total" readonly="true">
+				<input type="text" id="operator" readonly="true">
+				<input type="text" id="inprogress" readonly="true">
+			</div>
+			<div class="row">
+				<div class="btn red" id="ce">CE</div>
+				<div class="btn red" id="c">C</div>
+				<div class="btn default" id="del">&larr;</div>
+				<div class="btn operator" id="divide">/</div>
+			</div>
+			<div class="row">
+				<div class="btn number" id="seven">7</div>
+				<div class="btn number" id="eight">8</div>
+				<div class="btn number" id="nine">9</div>
+				<div class="btn operator" id="multiply">*</div>
+			</div>
+			<div class="row">
+				<div class="btn number" id="four">4</div>
+				<div class="btn number" id="five">5</div>
+				<div class="btn number" id="six">6</div>
+				<div class="btn operator" id="minus">-</div>
+			</div>
+			<div class="row">
+				<div class="btn number" id="one">1</div>
+				<div class="btn number" id="two">2</div>
+				<div class="btn number" id="three">3</div>
+				<div class="btn operator" id="plus">+</div>
+			</div>
+			<div class="row">
+				<div class="btn pn" id="pn">+-</div>
+				<div class="btn number" id="zero">0</div>
+				<div class="btn number" id="dot">.</div>
+				<div class="btn equal" id="equal">=</div>
+			</div>
+		</div>
+		<p>Developed by <a href="https://www.bileljribi.tn">Bilel Jribi</a></p>
+	</div>
+<script type="text/JavaScript" src="script.js"></script>
+
+</body>
+</html>
